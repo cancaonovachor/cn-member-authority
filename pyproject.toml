@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cn-member-authority"
+version = "0.1.0"
+description = ""
+authors = ["yudaihomma <kasettoc@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cn_member_authority"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notion = "^0.0.28"
+google-auth = "^2.22.0"
+notion-client = "^2.0.0"
+google-api-python-client = "^2.93.0"
+notion-database = "^1.1.0"
+requests = "^2.31.0"
+google-cloud-secret-manager = "^2.16.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
