@@ -1,3 +1,3 @@
 project   = "your-gcp-project-id"
 job_name  = "my-job"
-image = "gcr.io/cn-sandbox-manami/job-app:latest"
+image = "asia-northeast1-docker.pkg.dev/cn-sandbox-manami/my-repo/my-app:latest"
